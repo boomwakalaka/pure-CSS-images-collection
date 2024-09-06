@@ -1,1 +1,12 @@
+body{
+	background: #e0ffcd;
+}
 
+.box{
+	position: relative; /* element is placed relative to its normal position: top left corner */
+	margin: auto; /* element is automatically ... */
+	display: block;/* ... centerd horizontally */
+	height: 500px;
+	width: 500px;
+	border: solid 1px red
+}
