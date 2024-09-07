@@ -5,8 +5,58 @@ body{
 .box{
 	position: relative; /* element is placed relative to its normal position: top left corner */
 	margin: auto; /* element is automatically ... */
-	display: block;/* ... centerd horizontally */
+	display: block; /* ... centerd horizontally */
 	height: 500px;
 	width: 500px;
 	border: solid 1px red
+}
+
+.head{
+	position: absolute; /*absolute is used to position the element relative to its closest ancestor */
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	background: #db996c;
+	border-radius: 50%;
+}
+
+.head-copy{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #db996c;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.head-copy{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #db996c;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.ear-left{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+  top: 0%;
+	left: -0%;
+	background: #db996c;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.ear-right{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	top: 0%;
+	right: -0%;
+	background: #db996c;
+	z-index: 1;
+	border-radius: 50%;
 }
