@@ -8,7 +8,6 @@ body{
 	display: block; /* ... centerd horizontally */
 	height: 500px;
 	width: 500px;
-	border: solid 1px red
 }
 
 .head{
@@ -30,6 +29,8 @@ body{
 	z-index: 2;
 }
 
+/* ear-left and ear-right are positioned relative to the head, which is their parent  */
+
 .ear-left{
 	position: absolute;
 	width: 30%;
@@ -49,6 +50,8 @@ body{
 	border-radius: 50%;
 }
 
+/* inner-ear is positioned relative to each ear (the parents) */
+
 .inner-ear{
 	position: absolute;
 	width: 80%;
@@ -56,5 +59,90 @@ body{
 	top: 10%;
   	left: 10%;
 	background: #a55233;
+	border-radius: 50%;
+}
+
+.eye-left{
+	position: absolute;
+	width: 13%;
+	height: 13%;
+	top: 30%;
+	left: 22%;
+	background: black;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+.eye-right{
+	position: absolute;
+	width: 13%;
+	height: 13%;
+	top: 30%;
+	right: 22%;
+	background: black;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+.pupil-left{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	top: 30%;
+	right: 10%;
+	background: white;
+	border-radius: 50%;
+}
+
+.pupil-right{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	top: 30%;
+	left: 10%;
+	background: white;
+	border-radius: 50%;
+}
+
+.cheek-left{
+	position: absolute;
+	width: 20%;
+	height: 10%;
+	top: 40%;
+	left: 10%;
+	background: #fad3cf;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.cheek-right{
+	position: absolute;
+	width: 20%;
+	height: 10%;
+	top: 40%;
+	right: 10%;
+	background: #fad3cf;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.mouth{
+	position: absolute;
+	width: 45%;
+	height: 35%;
+	top: 40%;
+	left: 27.5%;
+	background:  #f4eeff;;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+.nose{
+	position: absolute;
+	width: 45%;
+	height: 35%;
+	top: 20%;
+	left: 27.5%;
+	background: black;
 	border-radius: 50%;
 }
