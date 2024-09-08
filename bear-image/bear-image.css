@@ -34,8 +34,6 @@ body{
 	position: absolute;
 	width: 30%;
 	height: 30%;
-  top: 0%;
-	left: -0%;
 	background: #db996c;
 	border-radius: 50%;
 	z-index: 1;
@@ -45,9 +43,18 @@ body{
 	position: absolute;
 	width: 30%;
 	height: 30%;
-	top: 0%;
-	right: -0%;
+	right: 0%;
 	background: #db996c;
 	z-index: 1;
+	border-radius: 50%;
+}
+
+.inner-ear{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top: 10%;
+  	left: 10%;
+	background: #a55233;
 	border-radius: 50%;
 }
