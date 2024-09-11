@@ -10,6 +10,16 @@ body{
 	width: 500px;
 }
 
+/* 
+
+The div is a block-level element, means it takes all the width of the parent, and the next element
+take the next 'line' in the space
+display: block ==> ensures the element behaves as a block-level element
+margin: auto ==> it is appliad to a block-level element and the browser automatically distributes left and right margin
+So actually we could use only the margine attribute
+
+*/
+
 .head{
 	position: absolute; /*absolute is used to position the element relative to its closest ancestor */
 	top: 25%;
