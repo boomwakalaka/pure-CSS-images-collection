@@ -20,6 +20,10 @@ So actually we could use only the margine attribute
 
 */
 
+/* IMPORTANT TO REMEMBER FOR position: absolute ==> 
+   in this way the element is removed from the normal flow of the document.
+   This means it not longer behaves as a block-level element */
+
 .head{
 	position: absolute; /*absolute is used to position the element relative to its closest ancestor */
 	top: 25%;
