@@ -27,6 +27,7 @@ body{
     left: 50%;
     border-radius: 50%;
     background-color: #FBD671;
+    box-shadow:inset -10px -10px 0px #EFBB42;
 }
 
 .face {
@@ -65,5 +66,24 @@ body{
     height: 75px;
     bottom: 0px;
     left: 0px;
-    border-radius: 10px 10px 150px 150px;
+    border-radius: 10px 10px 150px 150px; /* It defines in order: top left, top right, bottom right and bottom left corners */
+    overflow: hidden;
+}
+
+.tongue{
+    background:  #F15962;
+    width: 70%;
+    height: 70%;
+    left: 30px;
+    top: 40px;
+    border-radius: 150px 150px 10px 10px;
+}
+
+.pupil{
+    background: #FBD671;
+    width: 30%;
+    height: 30%;
+    left: 5px;
+    top: 10px;
+    border-radius: 50%;
 }
