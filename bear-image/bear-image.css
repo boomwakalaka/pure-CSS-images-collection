@@ -4,26 +4,27 @@ body{
 
 .box{
 	position: relative; /* element is placed relative to its normal position: top left corner */
-	margin: auto; /* element is automatically ... */
-	display: block; /* ... centerd horizontally */
+	margin: auto;
+	display: block;
 	height: 500px;
 	width: 500px;
 }
 
 /* 
 
-The div is a block-level element, means it takes all the width of the parent, and the next element
-take the next 'line' in the space
-display: block ==> ensures the element behaves as a block-level element
+The div is a block-level element, means it takes all the width of the parent, and the next element take the next 'line' in the space.
+A block-level element follow the "flow" of the document it means it stack on top of each other vertically while inline elements flow
+horizontally in the same line.
 margin: auto ==> it is appliad to a block-level element and the browser automatically distributes left and right margin
-So actually we could use only the margine attribute
+display: block ==> ensures the element behaves as a block-level element
+So actually we could use only the margin attribute
 
 */
 
 /* IMPORTANT TO REMEMBER FOR position: absolute ==> 
    in this way the element is removed from the normal flow of the document.
    This means it not longer behaves as a block-level element and both the element position is not affected by others elements
-   on the page, and other elements poistions are not affected */
+   on the page, and other elements poistions are not affected; so other elements behave as if the absolute element doesn't exist. */
 
 .head{
 	position: absolute; /*absolute is used to position the element relative to its closest ancestor */
