@@ -11,6 +11,8 @@ body{
     some distances puts by default by the browsers */
 }
 
+/* The comma( the , after the html selector in my case) is used to group more selectors in order to share the same properties inside the brackets */
+
 * {
     position: absolute;
 }
