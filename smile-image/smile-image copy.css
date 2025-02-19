@@ -1,0 +1,52 @@
+html,
+body {
+    background: #FEEE9D;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    position: absolute;
+}
+
+.face {
+    width: 150px;
+    height: 170px;
+    left: 75px;
+    top: 75px;
+    border: 1px solid blue;
+}
+
+.eye-group {
+    width: 30px;
+    height: 50px;
+    top: 10px;
+    left: 0;
+    border: 1px solid blue;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: #FBD671;
+}
+
+.eye-right{
+    background-color: #20184E;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    right: 15%;
+}
+
+.eye-left{
+    background-color: #20184E;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    right: 15%;
+}
